@@ -1,0 +1,18 @@
+[package]
+name = "pepterm"
+description = "View protein structures in your terminal with beautiful color gradients"
+repository = "https://github.com/suzuki-2001/pepterm"
+readme = "README.md"
+keywords = ["protein", "pdb", "terminal", "molecular", "visualization"]
+categories = ["command-line-utilities", "graphics", "visualization", "science"]
+exclude = ["examples", "media"]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+crossterm = "0.28.1"
+
+[[bin]]
+name = "pepterm"
+path = "src/main.rs"
